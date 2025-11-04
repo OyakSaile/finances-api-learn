@@ -1,0 +1,29 @@
+{
+	"name": "finances-api-learn",
+	"version": "1.0.0",
+	"description": "💰 API de Finanças",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "tsx watch ./src/app.ts",
+		"biome:lint": "npx @biomejs/biome format --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"drizzle-orm": "^0.44.7",
+		"fastify": "^5.6.1",
+		"pg": "^8.16.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.3",
+		"@types/node": "^24.10.0",
+		"@types/pg": "^8.15.6",
+		"drizzle-kit": "^0.31.6",
+		"prettier": "3.6.2",
+		"tsx": "^4.20.6",
+		"typescript": "^5.9.3"
+	}
+}
